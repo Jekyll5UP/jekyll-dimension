@@ -1,0 +1,12 @@
+{
+  "name": "jekyll-dimension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "app:dev":"bundle install && bundle update && bundle exec jekyll serve --port 4050 --incremental --verbose --trace",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
