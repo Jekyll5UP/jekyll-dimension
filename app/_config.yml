@@ -8,5 +8,6 @@ plugins:
 
 
 sass: 
- sass_dir: styles
+ sass_dir: views
+ style: compressed
  

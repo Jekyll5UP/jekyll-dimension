@@ -1,0 +1,10 @@
+data:
+ stylesheets: 
+  - id: main
+    basePath: 
+    paths: 
+
+    
+  - id: externals
+    basePath: https://
+    paths: 

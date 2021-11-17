@@ -5,9 +5,13 @@
 {% endcomment %}
 
 {% assign title = "head/title.html" %}
-{% assign stylesheet = "head/stylesheet.html" %}
+{% assign stylesheet = "head/stylesheets.html" %}
+{% assign meta = "head/meta.html" %}
+{% assign noscript = "head/noscript.html" %}
 
 <head>
  {% include {{ title }} %}
  {% include {{ stylesheet }} %}
+ {% include {{ meta }} %}
+ {% include {{ noscript }} %}
 </head>
